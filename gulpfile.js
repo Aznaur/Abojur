@@ -44,4 +44,4 @@ export { fonts };
 
 export const base = gulp.parallel(css);
 export const build = gulp.series(clear, html, base);
-export default gulp.series(develop, clear, base, gulp.parallel(watcher, server));
+export default gulp.series(develop, base, gulp.parallel(watcher, server));
