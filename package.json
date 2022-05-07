@@ -31,12 +31,10 @@
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
     "browser-sync": "^2.27.9",
-    "critical": "^4.0.1",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-group-css-media-queries": "^1.2.2",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^7.1.0",

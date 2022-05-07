@@ -11,7 +11,6 @@ export const css = () => {
       .pipe(app.plugins.gulpif(!(app.path.dev), app.plugins.autoprefixer(({
         cascade: false
       }))))
-      .pipe(app.plugins.gcmq())
       .pipe(app.plugins.gulpif(!(app.path.dev), app.plugins.cleanCss({
         2: {
           specialComments: 0,
