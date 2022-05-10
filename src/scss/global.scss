@@ -1,8 +1,21 @@
+:root {
+  --main-size: 18px;
+  --main-height: 32px;
+  --main-font-family: 'Montserrat', 'Arial', sans-serif;
+  --logo-font-family: 'Oranienbaum', 'Times New Roman', serif;
+  --main-color: #695A59;
+}
+
+
 body {
   min-width: 1366px;
   display: grid;
   grid-template-rows: auto 1fr;
   min-height: 100vh;
+  color: var(--main-color);
+  font-family: var(--main-font-family);
+  font-size: var(--main-size);
+  line-height: var(--main-height);
 }
 
 .visually-hidden {

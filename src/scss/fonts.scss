@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  src: url('../fonts/Montserrat-Medium.woff') format('woff'),
+       url('../fonts/Montserrat-Medium.woff2') format('woff2');
+       font-weight: 500;
+       font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  src: url('../fonts/Montserrat-Bold.woff') format('woff'),
+       url('../fonts/Montserrat-Bold.woff2') format('woff2');
+       font-weight: 700;
+       font-display: swap;
+}
+
+@font-face {
+  font-family: 'OldStandardTT';
+  font-style: normal;
+  src: url('../fonts/OldStandardTT-Regular.woff') format('woff'),
+       url('../fonts/OldStandardTT-Regular.woff2') format('woff2');
+       font-weight: 400;
+       font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oranienbaum';
+  font-style: normal;
+  src: url('../fonts/Oranienbaum-Regular.woff') format('woff'),
+       url('../fonts/Oranienbaum-Regular.woff2') format('woff2');
+       font-weight: 400;
+       font-display: swap;
+}

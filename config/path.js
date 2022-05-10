@@ -9,6 +9,7 @@ export const path =  {
         js: 'src/js/index.js',
         img: 'src/img/**/*.{jpg,png,jpeg,webp,svg}',
         webp: 'src/img/**/*.{jpg,png,jpeg,webp}',
+        fonts: 'src/fonts/',
         assets: ['src/fonts/**/*.ttf', 'src/icons/**/*.*']
     },
 
