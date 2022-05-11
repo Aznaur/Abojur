@@ -1,0 +1,33 @@
+.header-section {
+  font-family: 'OldStandardTT', 'Times New Roman', serif;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  column-gap: 20px;
+  margin-bottom: 33px;
+
+  &__title {
+    grid-column: 2/-1;
+    grid-row: 1;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px;
+    margin: 0;
+    z-index: 1;
+  }
+
+  &__subtitle {
+    grid-column:  1/-1;
+    grid-row: 1;
+    font-size: 140px;
+    line-height: 110px;
+    text-transform: uppercase;
+    color: #EAE1DC;
+    left: -99px;
+    top: 0;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+}
