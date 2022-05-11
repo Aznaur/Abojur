@@ -1,0 +1,27 @@
+.team {
+  background-color: #343235;
+  padding-bottom: 120px;
+
+  &__text {
+    grid-column: 2/ span 6;
+    color: #FBF3F0;
+  }
+
+  &__aside {
+    grid-column: 9/ -1;
+    grid-row: 2/3;
+    color: #FBF3F0;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__image {
+    margin-top: 40px;
+    grid-column: 1/-1;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}

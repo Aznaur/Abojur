@@ -15,6 +15,7 @@
     line-height: 54px;
     margin: 0;
     z-index: 1;
+    text-transform: uppercase;
   }
 
   &__subtitle {
@@ -34,6 +35,18 @@
     grid-template-columns: repeat(6, 1fr);
     grid-column: 7/-1;
     margin-bottom: 0;
+
+    & .header-section__title {
+      color: #EEE9E6;
+    }
+
+    & .header-section__subtitle {
+      color: rgba(154, 133, 132, 0.1);
+    }
+  }
+
+  &--team {
+    grid-column: 1/-1;
 
     & .header-section__title {
       color: #EEE9E6;
