@@ -30,4 +30,18 @@
     margin-top: 15px;
   }
 
+  &--mission {
+    grid-template-columns: repeat(6, 1fr);
+    grid-column: 7/-1;
+    margin-bottom: 0;
+
+    & .header-section__title {
+      color: #EEE9E6;
+    }
+
+    & .header-section__subtitle {
+      color: rgba(154, 133, 132, 0.1);
+    }
+  }
+
 }
