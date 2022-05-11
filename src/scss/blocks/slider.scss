@@ -1,0 +1,47 @@
+.slider {
+  grid-column: 2/ span 10;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 100px;
+
+  &__image {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+  }
+
+  &__description {
+    grid-row: 2/-1;
+    grid-column: 1/-1;
+    background: rgba(52, 50, 53, 0.9);
+    box-sizing: border-box;
+    padding: 32px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: 'OldStandardTT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #F5F2ED;
+    margin: 0;
+  }
+
+  &__link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F5F2ED;
+    text-decoration: none;
+    padding-right: 48px;
+    background-image: url('../../img/line-link-white.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+
+}

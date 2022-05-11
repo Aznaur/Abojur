@@ -1,0 +1,33 @@
+.projects {
+  background-color: #EEE9E6;
+  padding: 60px 0;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+  }
+
+  &__button {
+    width: 72px;
+    height: 72px;
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #343235;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-self: center;
+    cursor: pointer;
+
+    &--left {
+      background-image: url('../../img/left-control.svg');
+      grid-column: 1/ span 1;
+      grid-row: 1/ span 1;
+    }
+
+    &--right {
+      background-image: url('../../img/right-control.svg');
+    }
+  }
+}
