@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="Студия дизайнерского текстиля, текстиль">
+    <meta name="description" content="Студия дизайнерского текстиля в Санкт Петербурге">
     <link rel="stylesheet" href="css/style.css">
     <title>«Abojur» - Студия дизайнерского текстиля</title>
 </head>
@@ -71,7 +71,7 @@
               <h3 class="card__title">Подушки Casa Nova</h3>
               <p class="card__price">от 15 000 ₽</p>
               <p class="card__text">*стоимость варьируется в зависимости от размера изделия</p>
-              <a href="" class="card__button">заказать</a>
+              <a href="#" class="card__button">заказать</a>
             </div>
           </article>
           <article class="best-offers__item card">
@@ -80,7 +80,7 @@
               <h3 class="card__title">Покрывало ШАНТИ</h3>
               <p class="card__price">от 13 660 ₽</p>
               <p class="card__text">*стоимость варьируется в зависимости от размера изделия</p>
-              <a href="" class="card__button">заказать</a>
+              <a href="#" class="card__button">заказать</a>
             </div>
           </article>
           <article class="best-offers__item card">
@@ -89,7 +89,7 @@
               <h3 class="card__title">Подушки Elixir №7</h3>
               <p class="card__price">от 15 000 ₽</p>
               <p class="card__text">*стоимость варьируется в зависимости от размера изделия</p>
-              <a href="" class="card__button">заказать</a>
+              <a href="#" class="card__button">заказать</a>
             </div>
           </article>
           <article class="best-offers__item best-offers__item--horizontally card card--horizontally">
@@ -98,7 +98,7 @@
               <h3 class="card__title">Подушки Basic</h3>
               <p class="card__price">от 11 000 ₽</p>
               <p class="card__text">*стоимость варьируется в зависимости от размера изделия</p>
-              <a href="" class="card__button">заказать</a>
+              <a href="#" class="card__button">заказать</a>
             </div>
           </article>
           <article class="best-offers__item best-offers__item--horizontally card card--horizontally">
@@ -107,7 +107,7 @@
               <h3 class="card__title">Подушки Vintage</h3>
               <p class="card__price">от 17 000 ₽</p>
               <p class="card__text">*стоимость варьируется в зависимости от размера изделия</p>
-              <a href="" class="card__button">заказать</a>
+              <a href="#" class="card__button">заказать</a>
             </div>
           </article>
         </div>
@@ -181,8 +181,40 @@
         <img src="img/collections-5.jpg" alt="" class="collections__image" width="573" height="240">
       </figure>
     </section>
-  </main>
+    <section class="feedback">
+      <div class="container feedback__grid">
+        <header class="header-section header-section--feedback">
+          <h2 class="header-section__title">мы всегда рады общению</h2>
+          <p class="header-section__subtitle">Talk</p>
+        </header>
 
-  <footer></footer>
+        <p class="feedback__text">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
+        <form class="feedback__form form" action="#" method="post">
+          <p class="form__field">
+            <label for="name-field" class="visually-hidden">Имя</label>
+            <input class="form__input" type="text" name="name" id="name-field" placeholder="Ваше имя">
+          </p>
+
+          <p class="form__field form__field--margin-bottom">
+            <label for="phone-field" class="visually-hidden">Введите телефон</label>
+            <input class="form__input" type="text" name="phone" id="phone-field" placeholder="Введите телефон">
+          </p>
+
+          <select class="form__select">
+            <option disabled selected>Удобное время</option>
+            <option value="morning">Утром</option>
+            <option value="afternoon">В обед</option>
+            <option value="evening">Вечером</option>
+          </select>
+          <p class="form__field form__field--checkbox">
+            <input class="visually-hidden form__checkbox" type="checkbox" name="data" id="data-field" checked>
+            <label class="form__checkbox-label" for="data-field">Согласие на обработку персональных данных</label>
+          </p>
+          <button type="submit" class="form__button">Оставить заявку</button>
+        </form>
+        <img class="feedback__map" src="img/map.jpg" alt="Карта" width="474" height="734">
+      </div>
+    </section>
+  </main>
 </body>
 </html>
