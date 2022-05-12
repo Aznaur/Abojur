@@ -1,0 +1,31 @@
+.feedback {
+  background-color: rgba(52, 50, 53, 0.9);
+  background-image: url('../../img/feedback-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+  }
+
+  &__text {
+    margin-top: 0;
+    grid-column: 2/7;
+    margin-bottom: 28px;
+    color: #EEE9E6;
+    opacity: 0.6;
+  }
+
+  &__map {
+    grid-column: 8/-1;
+    grid-row: 1/ 4;
+  }
+
+  &__form {
+    grid-column: 2/7;
+    margin-bottom: 80px;
+  }
+}

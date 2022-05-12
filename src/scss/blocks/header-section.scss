@@ -57,4 +57,20 @@
     }
   }
 
+  &--feedback {
+    grid-column: 1/7;
+    margin-top: 80px;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 36px;
+
+    & .header-section__title {
+      grid-column: 2/-1;
+      color: #EEE9E6;
+    }
+
+    & .header-section__subtitle {
+      color: rgba(154, 133, 132, 0.1);
+    }
+  }
+
 }
